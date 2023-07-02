@@ -8,7 +8,7 @@ systemctl enable sddm.service
 
 mkdir -p ~/.config/hypr
 
-cp -r "$(dirname "$0")/dotfiles/catppuccin/" ~/.config/hypr/
+cp -r ./dotfiles/catppuccin/* ~/.config/hypr/
 
 sudo cp -r ./fonts/* /usr/share/fonts/
 
