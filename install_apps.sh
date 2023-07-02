@@ -10,10 +10,10 @@ mkdir -p ~/.config/hypr
 
 cp -r "$(dirname "$0")/dotfiles/catppuccin/" ~/.config/hypr/
 
-sudo cp -r "$(dirname "$0")/fonts/*" /usr/share/fonts/
+sudo cp -r ./fonts/* /usr/share/fonts/
 
-sudo cp -r "$(dirname "$0")/gtk/cursor/*" /usr/share/icons/
+sudo cp -r ./gtk/cursor/* /usr/share/icons/
 
-sudo cp -r "$(dirname "$0")/gtk/icons/*" /usr/share/icons/
+sudo cp -r ./gtk/icons/* /usr/share/icons/
 
-sudo cp -r "$(dirname "$0")/gtk/theme/*" /usr/share/themes/
+sudo cp -r ./gtk/theme/* /usr/share/themes/
